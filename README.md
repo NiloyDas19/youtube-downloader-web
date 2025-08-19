@@ -1,6 +1,3 @@
-Sure! Here's a **professional README** for your project, explaining the purpose, educational use, and deployment instructions:
-
-````markdown
 # YouTube Downloader Web App (Educational Purpose)
 
 This is a **YouTube video downloader web app** built using **Flask** and **Pytubefix**. It allows users to download **720p MP4 videos with audio** directly from YouTube for **educational and testing purposes** only.  
