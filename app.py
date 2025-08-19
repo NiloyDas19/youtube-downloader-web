@@ -17,7 +17,7 @@ def index():
         if not url:
             return "Please enter a YouTube URL!"
         try:
-            yt = YouTube(url, on_progress_callback=on_progress)
+            yt = YouTube(url, on_progress_callback=on_progress, use_po_token=True)
             stream = yt.streams.filter(progressive=True, file_extension="mp4") \
                                .order_by("resolution").desc().first()
             
