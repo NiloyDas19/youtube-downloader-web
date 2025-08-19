@@ -41,51 +41,23 @@ This is a **YouTube video downloader web app** built using **Flask** and **Pytub
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/NiloyDas19/youtube-downloader-web.git
 cd YOUR_REPO
 ````
 
-2. Create a virtual environment and activate it:
-
-```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# Linux/macOS
-source venv/bin/activate
-```
-
-3. Install dependencies:
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the Flask app:
+3. Run the Flask app:
 
 ```bash
 python app.py
 ```
 
 5. Open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
-
----
-
-## Deployment on Render.com
-
-1. Push your repository to GitHub.
-2. Sign up on [Render.com](https://render.com).
-3. Create a **New Web Service** → Connect your GitHub repo.
-4. Set **Environment**: Python 3
-5. Set **Start Command**:
-
-```bash
-gunicorn app:app
-```
-
-6. Render builds and deploys your app → you get a public URL.
-
----
 
 ## Disclaimer
 
@@ -94,16 +66,3 @@ gunicorn app:app
 * Free hosting IPs may be rate-limited by YouTube (HTTP 429).
 
 ---
-
-## License
-
-MIT License
-
-```
-
----
-
-If you want, I can also **enhance this README** with **screenshots of your web app** and **demo link instructions** to make it look even more professional for GitHub.  
-
-Do you want me to do that?
-```
