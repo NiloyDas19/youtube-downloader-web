@@ -42,7 +42,7 @@ This is a **YouTube video downloader web app** built using **Flask** and **Pytub
 1. Clone the repository:
 ```bash
 git clone https://github.com/NiloyDas19/youtube-downloader-web.git
-cd YOUR_REPO
+cd youtube-downloader-web
 ````
 
 2. Install dependencies:
